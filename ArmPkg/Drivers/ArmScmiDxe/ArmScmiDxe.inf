@@ -35,7 +35,9 @@
   MdePkg/MdePkg.dec
 
 [LibraryClasses]
-  ArmLib
+  BaseLib
+  BaseMemoryLib
+  MemoryAllocationLib
   ArmMtlLib
   DebugLib
   IoLib
